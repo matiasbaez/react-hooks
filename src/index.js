@@ -12,11 +12,12 @@ import reportWebVitals from './reportWebVitals';
 // import { Memorize } from './components/memos/Memorize';
 // import { MemorizeHook } from './components/memos/MemorizeHook';
 // import { CallbackHook } from './components/memos/CallbackHook';
-import { Padre } from './components/tarea-memo/Padre';
+// import { Padre } from './components/tarea-memo/Padre';
+import { TodoApp } from './components/useReducer/TodoApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
